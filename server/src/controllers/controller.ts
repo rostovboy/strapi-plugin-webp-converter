@@ -3,7 +3,7 @@ import type { Core } from '@strapi/strapi';
 const controller = ({ strapi }: { strapi: Core.Strapi }) => ({
   index(ctx) {
     ctx.body = strapi
-      .plugin('simple-webp-converter')
+      .plugin('webp-converter')
       // the name of the service file & the method.
       .service('service')
       .getWelcomeMessage();

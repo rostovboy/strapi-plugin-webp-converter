@@ -66,13 +66,13 @@ const processFile = async (
       file.mimetype = 'image/webp';
     } catch (error) {
       strapi.log.error(
-        `Plugin (simple-webp-converter): Image Converter Middleware: Error converting ${file.originalFilename} to webp:`,
+        `Plugin (strapi-plugin-webp-converter): Image Converter Middleware: Error converting ${file.originalFilename} to webp:`,
         error
       );
     }
   } else {
     strapi.log.info(
-      `Plugin (simple-webp-converter): Image Converter Middleware: No convertable image ${file.originalFilename}`
+      `Plugin (strapi-plugin-webp-converter): Image Converter Middleware: No convertable image ${file.originalFilename}`
     );
   }
 };
