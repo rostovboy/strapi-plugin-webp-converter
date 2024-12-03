@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "strapi",
     "strapi-plugin",
@@ -52,7 +52,7 @@
     "type": "git",
     "url": "https://github.com/dnlnwk/strapi-plugin-webp-converter.git"
   },
-  "homepage": "https://github.com/dnlnwk/strapi-plugin-webp-converter",
+  "homepage": "https://dnlnwk.de/",
   "name": "strapi-plugin-webp-converter",
   "description": "A Strapi plugin that converts images to WebP format.",
   "license": "MIT",
