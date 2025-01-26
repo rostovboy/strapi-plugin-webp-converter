@@ -49,6 +49,8 @@ const processFile = async (
 ) => {
   const filePath = file.filepath;
 
+  console.log(filePath);
+
   if (IMAGE_TYPES.includes(file.mimetype)) {
     const webpFileName = `${parse(file.originalFilename).name}.webp`;
     const webpFilePath = join(dirname(filePath), webpFileName);
